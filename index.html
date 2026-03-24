@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Oráculo do Zodíaco</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <h1>🌟 Oráculo do Zodíaco</h1>
+    <p class="descricao">
+      Descubra qual Cavaleiro de Ouro protege o seu signo inspirado em
+      Os Cavaleiros do Zodíaco
+    </p>
+
+    <div class="form">
+      <label for="dataNascimento">Digite sua data de nascimento:</label>
+      <input type="date" id="dataNascimento">
+      <button onclick="descobrirSigno()">Descobrir Cavaleiro</button>
+    </div>
+
+    <!-- Imagem do Cavaleiro -->
+    <div class="imagem-box">
+      <img id="imagemCavaleiro" src="" alt="Cavaleiro de Ouro">
+    </div>
+
+    <!-- Resultado -->
+    <div id="oraculo" class="resultado"></div>
+
+  </div>
+
+</body>
+<script src="script.js"></script>
+</html>
